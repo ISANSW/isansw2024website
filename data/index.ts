@@ -180,31 +180,31 @@ export const companies = [
     id: 1,
     name: "RACC",
     img: "",
-    nameImg: "/cloudName.svg",
+    nameImg: "",
   },
   {
     id: 2,
     name: "Garuda Indonesia",
     img: "",
-    nameImg: "/appName.svg",
+    nameImg: "",
   },
   {
     id: 3,
     name: "Hyper Karting",
     img: "",
-    nameImg: "/hostName.svg",
+    nameImg: "",
   },
   {
     id: 4,
     name: "Expert Education & Visa Services",
     img: "",
-    nameImg: "/streamName.svg",
+    nameImg: "",
   },
   {
     id: 5,
     name: "",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "",
+    nameImg: "",
   },
 ];
 
