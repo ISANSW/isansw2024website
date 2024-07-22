@@ -79,7 +79,7 @@ export const branch = [
   {
     id: 1,
     title: "PPIA Macquarie University",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Branch Indonesian Student Association in Macquarie University.",
     img: "/PPIA_MQ.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     branchtext: " ",
@@ -88,7 +88,7 @@ export const branch = [
   {
     id: 2,
     title: "PPIA University of New South Wales",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Branch Indonesian Student Association in University of New South Wales.",
     img: "/PPIA_UNSW.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     branchtext: " ",
@@ -97,7 +97,7 @@ export const branch = [
   {
     id: 3,
     title: "PPIA University of Newcastle",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Branch Indonesian Student Association in University of Newcastle.",
     img: "/PPIA_UON.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     branchtext: " ",
@@ -106,7 +106,7 @@ export const branch = [
   {
     id: 4,
     title: "PPIA University of Wollongong",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Branch Indonesian Student Association in University of Wollongong.",
     img: "/PPIA_UOW.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     branchtext: " ",
@@ -115,7 +115,7 @@ export const branch = [
   {
     id: 5,
     title: "PPIA University of Sydney",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Branch Indonesian Student Association in University of Sydney.",
     img: "/PPIA_USYD.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     branchtext: " ",
@@ -124,7 +124,7 @@ export const branch = [
   {
     id: 6,
     title: "PPIA University of Technology Sydney",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Branch Indonesian Student Association in University of Technology Sydney.",
     img: "/PPIA_UTS.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     branchtext: " ",
@@ -133,7 +133,7 @@ export const branch = [
   {
     id: 7,
     title: "PPIA Western Sydney University",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Branch Indonesian Student Association in Western Sydny University",
     img: "/PPIA_WSU.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     branchtext: " ",
@@ -179,32 +179,32 @@ export const companies = [
   {
     id: 1,
     name: "RACC",
-    img: "",
-    nameImg: "",
+    img: "sponsorList/RACC - PPIA USYD.svg",
+    nameImg: "sponsorList/RACCname - PPIA USYD.png",
   },
   {
     id: 2,
-    name: "Garuda Indonesia",
-    img: "",
-    nameImg: "",
+    name: "DR. Jana Siswadi",
+    img: "sponsorList/DR-JANA-PPIA_UTS.png",
+    nameImg: "sponsorList/DR-JANAname-PPIA_UTS.png",
   },
   {
     id: 3,
     name: "Hyper Karting",
-    img: "",
-    nameImg: "",
+    img: "sponsorList/hyper-karting-isa.png",
+    nameImg: "sponsorList/hyper-kartingname-isa.png",
   },
   {
     id: 4,
-    name: "Expert Education & Visa Services",
-    img: "",
-    nameImg: "",
+    name: "Traveloka",
+    img: "sponsorList/Traveloka.svg",
+    nameImg: "sponsorList/TravelokaName.png",
   },
   {
     id: 5,
-    name: "",
-    img: "",
-    nameImg: "",
+    name: "Expert Education & Visa Services",
+    img: "sponsorList/Expert.png",
+    nameImg: "sponsorList/ExpertName.png",
   },
 ];
 
@@ -215,6 +215,7 @@ export const bigEvents = [
     desc: "@ppiaunsw's biggest event! 22 years of Indonesian culture through food, performances, & fun!",
     className: "md:col-span-2",
     thumbnail: "",
+    link:"",
   },
   {
     id: 2,
@@ -222,6 +223,7 @@ export const bigEvents = [
     desc: "@ppiausyd",
     className: "md:col-span-2", 
     thumbnail: "",
+    link:"",
   },
   {
     id: 3,
@@ -229,6 +231,7 @@ export const bigEvents = [
     desc: "@ppia.uts’s flagship event bringing Indonesian Music Festival in Sydney, Australia",
     className: "md:col-span-2", 
     thumbnail: "",
+    link:"",
   },
   {
     id: 4,
@@ -236,6 +239,7 @@ export const bigEvents = [
     desc: "Annual charity concert flagship event by @ppiamq to build better Indonesia",
     className: "md:col-span-2",
     thumbnail: "",
+    link:"",
   },
   {
     id: 5,
@@ -243,6 +247,7 @@ export const bigEvents = [
     desc: "@ppiaunsw ’s flagship event bringing inspirational speakers from Indonesia to you",
     className: "md:col-span-2",
     thumbnail: "",
+    link:"",
   },
 ];
 

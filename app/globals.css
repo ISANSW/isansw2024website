@@ -82,4 +82,12 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+
+  .item p {
+    @apply w-full text-[42px] font-medium uppercase text-white;
+  }
+
+  .item p span {
+    @apply px-5 text-base;
+  }
 }
