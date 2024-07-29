@@ -65,6 +65,11 @@ const Branch = () => {
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}*/}
+                  <a href={item.link}>
+                    <p className="flex lg:text-xl md:text-xs text-sm text-yellow-200">
+                      Committee Introduction
+                    </p>
+                  </a>
                 </div>
                 
                 

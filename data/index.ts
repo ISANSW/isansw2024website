@@ -15,7 +15,7 @@ export const gridItems = [
     titleClassName: "justify-end",
     img: "/isalogo.png",
     spareImg: "",
-    gridLink: "about",
+    gridLink: "#about",
   },
   {
     id: 2,
@@ -81,7 +81,7 @@ export const branch = [
     title: "PPIA Macquarie University",
     des: "Branch Indonesian Student Association in Macquarie University.",
     img: "/PPIA_MQ.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiamq/",
   },
@@ -90,7 +90,7 @@ export const branch = [
     title: "PPIA University of New South Wales",
     des: "Branch Indonesian Student Association in University of New South Wales.",
     img: "/PPIA_UNSW.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiaunsw/",
   },
@@ -99,7 +99,7 @@ export const branch = [
     title: "PPIA University of Newcastle",
     des: "Branch Indonesian Student Association in University of Newcastle.",
     img: "/PPIA_UON.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppia_newcastle/",
   },
@@ -108,7 +108,7 @@ export const branch = [
     title: "PPIA University of Wollongong",
     des: "Branch Indonesian Student Association in University of Wollongong.",
     img: "/PPIA_UOW.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiauow/",
   },
@@ -117,7 +117,7 @@ export const branch = [
     title: "PPIA University of Sydney",
     des: "Branch Indonesian Student Association in University of Sydney.",
     img: "/PPIA_USYD.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiausyd/",
   },
@@ -126,7 +126,7 @@ export const branch = [
     title: "PPIA University of Technology Sydney",
     des: "Branch Indonesian Student Association in University of Technology Sydney.",
     img: "/PPIA_UTS.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppia.uts/",
   },
@@ -135,44 +135,173 @@ export const branch = [
     title: "PPIA Western Sydney University",
     des: "Branch Indonesian Student Association in Western Sydny University",
     img: "/PPIA_WSU.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiawsu/",
   },
   
 ];
 
-export const Benefit = [
+export const SponsorList = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"Discount 10% off total bill - order above $30.",
+    name: "Kirribilli Pizzeria",
+    location: "Shop 1/12 Fitzroy St, Kirribilli NSW 2061",
+    locationLink: "",
+    logo: "/sponsorList/restarurantlogo/Kirribilli_Pizzeria_-_PPIA_UNSW.png",
+  },
+  {
+    quote:"Discount 15% off total bill",
+    name: "MakNyoss Indonesian & Asian Fusion",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Discount 10% off total bill",
+    name: "Dapoer Rawit",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Discount 10% off total bill",
+    name: "Bintang Bro",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Discount 10% off total bill",
+    name: "Cin yen",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Free 1 teh kotak - order above $20",
+    name: "Indo Rasa",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
   },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Klinney Kopitiam",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Kow Loon Cafe",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Lukumades",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Mie Kocok Bandung",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Ni Hao Bar",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Sushi Tengoku",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 15% off total bill",
+    name: "The Bowls Central Park",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "The Sambal",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Yo-chi",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "15% off + 5$ off for first time users of their app",
+    name: "Kafe Kooks",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "10% off all menu + free desserts for all customers",
+    name: "Mutiara",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "10% off the total bill if at least 1 out of 5 seasonal menu is bought",
+    name: "Cafe 0.6",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "https://maps.app.goo.gl/A9oUiuLvRa4WNwY69",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill",
+    name: "Nyonya",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  {
+    quote:
+      "Discount 10% off total bill (cash only)",
+    name: "My Indo Kitchen",
+    location: "Director of AlphaStream Technologies",
+    locationLink: "",
+    logo: "",
+  },
+  
 ];
 
 export const companies = [
@@ -206,6 +335,18 @@ export const companies = [
     img: "sponsorList/Expert.png",
     nameImg: "sponsorList/ExpertName.png",
   },
+  {
+    id: 6,
+    name: "Garuda Indonesia",
+    img: "sponsorList/Garuda-Indonesia- isa.png",
+    nameImg: "sponsorList/Garuda-IndonesiaName- isa.png",
+  },
+  {
+    id: 7,
+    name: "Duet Socials",
+    img: "sponsorList/DuetSoc.png",
+    nameImg: "sponsorList/DuetSocName.png",
+  },
 ];
 
 export const bigEvents = [
@@ -215,7 +356,7 @@ export const bigEvents = [
     desc: "@ppiaunsw's biggest event! 22 years of Indonesian culture through food, performances, & fun!",
     className: "md:col-span-2",
     thumbnail: "",
-    link:"",
+    link:"https://www.instagram.com/inm.unsw",
   },
   {
     id: 2,
@@ -223,7 +364,7 @@ export const bigEvents = [
     desc: "@ppiausyd",
     className: "md:col-span-2", 
     thumbnail: "",
-    link:"",
+    link:"https://www.instagram.com/___unravelled",
   },
   {
     id: 3,
@@ -231,7 +372,7 @@ export const bigEvents = [
     desc: "@ppia.uts’s flagship event bringing Indonesian Music Festival in Sydney, Australia",
     className: "md:col-span-2", 
     thumbnail: "",
-    link:"",
+    link:"https://www.instagram.com/sendalfest",
   },
   {
     id: 4,

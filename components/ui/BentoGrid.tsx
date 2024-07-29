@@ -5,6 +5,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
+import Link from 'next/link';
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -75,6 +76,9 @@ export const BentoGridItem = ({
 
 
   return (
+  <>
+  {gridLink && (
+  <Link href={gridLink} passHref legacyBehavior>
     <div
       className={cn(
         // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
@@ -89,6 +93,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
+    
       {/* add img divs */}
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
@@ -196,5 +201,8 @@ export const BentoGridItem = ({
         </div>
       </div>
     </div>
+    </Link>
+    )}
+    </>
   );
 };
