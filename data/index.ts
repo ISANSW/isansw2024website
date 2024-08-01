@@ -4,6 +4,10 @@ export const navItems = [
   { name: "Member' Benefit", link: "#sponsor" },
   { name: "Contact", link: "#contact" },
 ];
+export const aboutItems = [
+  { name: "Back to home", link: "/" },
+];
+
 
 export const gridItems = [
   {
@@ -15,7 +19,7 @@ export const gridItems = [
     titleClassName: "justify-end",
     img: "/isalogo.png",
     spareImg: "",
-    gridLink: "#about",
+    gridLink: "about",
   },
   {
     id: 2,
@@ -60,7 +64,7 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "",
     spareImg: "/grid.svg",
-    gridLink: "committee",
+    gridLink: "about#committee",
   },
   {
     id: 6,
@@ -71,7 +75,7 @@ export const gridItems = [
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
-    gridLink: "",
+    gridLink: "#",
   },
 ];
 
@@ -147,159 +151,159 @@ export const SponsorList = [
     quote:"Discount 10% off total bill - order above $30.",
     name: "Kirribilli Pizzeria",
     location: "Shop 1/12 Fitzroy St, Kirribilli NSW 2061",
-    locationLink: "",
+    locationLink: "https://maps.app.goo.gl/JJYTowpaYLViZaLk9",
     logo: "/sponsorList/restarurantlogo/Kirribilli_Pizzeria_-_PPIA_UNSW.png",
   },
   {
     quote:"Discount 15% off total bill",
     name: "MakNyoss Indonesian & Asian Fusion",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "g01/247 Coward St, Mascot NSW 2020",
+    locationLink: "https://maps.app.goo.gl/rNTPxaLijKLG34bQA",
+    logo: "/sponsorList/restarurantlogo/Maknyoss.avif",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Dapoer Rawit",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "474 Anzac Parade, Kingsford NSW 2032",
+    locationLink: "https://maps.app.goo.gl/jttPerfCsGtYQ6MQ9",
+    logo: "/sponsorList/restarurantlogo/dapoer-rawit.jpg",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Bintang Bro",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "4/1 Little Pier St, Haymarket NSW 2000",
+    locationLink: "https://maps.app.goo.gl/ugtX28dsj6rXPVP98",
+    logo: "/sponsorList/restarurantlogo/bintang-bro.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Cin yen",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Upstairs, 524 Anzac Parade, Kingsford NSW 2032s",
+    locationLink: "https://maps.app.goo.gl/gcD6giDSMu4WGwBT6",
+    logo: "/sponsorList/restarurantlogo/cin-yen.jpg",
   },
   {
     quote:
       "Free 1 teh kotak - order above $20",
     name: "Indo Rasa",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "1/309 Anzac Parade, Kingsford NSW 2032",
+    locationLink: "https://maps.app.goo.gl/JKizZQ26wD931t6J6",
+    logo: "/sponsorList/restarurantlogo/indo-rasa.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Klinney Kopitiam",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "28 Broadway, Chippendale NSW 2008",
+    locationLink: "https://maps.app.goo.gl/8byN9DW8c64JvquEA",
+    logo: "/sponsorList/restarurantlogo/Killiney-Kopitiam.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Kow Loon Cafe",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Shop 7A-9A/421-429 Sussex St, Haymarket NSW 2000",
+    locationLink: "https://maps.app.goo.gl/vARK8BuUyWHsvTfN9",
+    logo: "/sponsorList/restarurantlogo/kowloon-cafe.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Lukumades",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Shop/2 Central Park Ave, Chippendale NSW 2008",
+    locationLink: "https://maps.app.goo.gl/1DrXNEW7D6ck2mwT6",
+    logo: "/sponsorList/restarurantlogo/lukumades.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Mie Kocok Bandung",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Shop 1/104-112 Maroubra Rd, Maroubra NSW 2035",
+    locationLink: "https://maps.app.goo.gl/YyGtzWUN8QwWuaGK9",
+    logo: "/sponsorList/restarurantlogo/mie-kocok-bandung.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Ni Hao Bar",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Level 1/388 Pitt St, Sydney NSW 2000",
+    locationLink: "https://maps.app.goo.gl/NuMj2Mv5U5PQeMeu9",
+    logo: "/sponsorList/restarurantlogo/ni-hao-bar.png",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Sushi Tengoku",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "262 Anzac Parade, Kensington NSW 2033",
+    locationLink: "https://maps.app.goo.gl/ctcair8TLBastsiv7",
+    logo: "/sponsorList/restarurantlogo/sushi-Tengoku.png",
   },
   {
     quote:
       "Discount 15% off total bill",
     name: "The Bowls Central Park",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Shop 2/87 O'Connor St, Chippendale NSW 2008",
+    locationLink: "https://maps.app.goo.gl/kgPHiTv47Aj4vsjn8",
+    logo: "/sponsorList/restarurantlogo/the-bowls.jpg",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "The Sambal",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "shop a/432 Kent St, Sydney NSW 2000",
+    locationLink: "https://maps.app.goo.gl/yDzhWTMfnoLZzvEi8",
+    logo: "/sponsorList/restarurantlogo/the-sambal.jpg",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Yo-chi",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "multiple locations",
+    locationLink: "https://www.google.com/maps/search/Yo-Chi/@-33.9399469,151.1445049,11z?entry=ttu",
+    logo: "/sponsorList/restarurantlogo/yo-chi.png",
   },
   {
     quote:
       "15% off + 5$ off for first time users of their app",
     name: "Kafe Kooks",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "63 Mountain St, Ultimo NSW 2007",
+    locationLink: "https://maps.app.goo.gl/pNgnh12AZ7SAkzSF6",
+    logo: "/sponsorList/restarurantlogo/kafe-kooks.png",
   },
   {
     quote:
       "10% off all menu + free desserts for all customers",
     name: "Mutiara",
-    location: "Director of AlphaStream Technologies",
+    location: "Jakarta, Indonesia",
     locationLink: "",
-    logo: "",
+    logo: "/sponsorList/restarurantlogo/mutiara-logo.jpg",
   },
   {
     quote:
       "10% off the total bill if at least 1 out of 5 seasonal menu is bought",
     name: "Cafe 0.6",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "https://maps.app.goo.gl/A9oUiuLvRa4WNwY69",
-    logo: "",
+    location: "1a/11 Bowden St, Alexandria NSW 2015",
+    locationLink: "https://maps.app.goo.gl/Zdzr3VMbaRBUTAnv7",
+    logo: "/sponsorList/restarurantlogo/cafe-0.6.jpg",
   },
   {
     quote:
       "Discount 10% off total bill",
     name: "Nyonya",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "Shop 12/363 Sussex St, Haymarket NSW 2000",
+    locationLink: "https://maps.app.goo.gl/HuQRPTC76RdW95XR6",
+    logo: "/sponsorList/restarurantlogo/nyonya.jpg",
   },
   {
     quote:
       "Discount 10% off total bill (cash only)",
     name: "My Indo Kitchen",
-    location: "Director of AlphaStream Technologies",
-    locationLink: "",
-    logo: "",
+    location: "270 Beamish St, Campsie NSW 2194",
+    locationLink: "https://maps.app.goo.gl/K5JJhMmw3yfDoRJY8",
+    logo: "/sponsorList/restarurantlogo/my-Indo-Kitchen.avif",
   },
   
 ];
@@ -308,44 +312,58 @@ export const companies = [
   {
     id: 1,
     name: "RACC",
-    img: "sponsorList/RACC - PPIA USYD.svg",
-    nameImg: "sponsorList/RACCname - PPIA USYD.png",
+    img: "sponsorList/RACC - PPIA USYD.png",
+    nameImg: "/sponsorList/RACCname - PPIA USYD.png",
+    promo: "Chance to win <b>$200</b> discount voucher",
+    companylink: "",
   },
   {
     id: 2,
     name: "DR. Jana Siswadi",
     img: "sponsorList/DR-JANA-PPIA_UTS.png",
     nameImg: "sponsorList/DR-JANAname-PPIA_UTS.png",
+    promo: "Discount <b>20%</b> off for every transaction",
+    companylink: "",
   },
   {
     id: 3,
     name: "Hyper Karting",
     img: "sponsorList/hyper-karting-isa.png",
     nameImg: "sponsorList/hyper-kartingname-isa.png",
+    promo: '20% off using the code <b>ISA24</b>. <i>* For online booking only.</i>',
+    companylink: "",
   },
   {
     id: 4,
     name: "Traveloka",
     img: "sponsorList/Traveloka.svg",
     nameImg: "sponsorList/TravelokaName.png",
+    promo: '<b>ONE TIME</b> <i>10%</i> for new users and <i>7%</i>b for existing users <b> residing in australia </b>.',
+    companylink: "",
   },
   {
     id: 5,
     name: "Expert Education & Visa Services",
     img: "sponsorList/Expert.png",
     nameImg: "sponsorList/ExpertName.png",
+    promo: "Discounted Student Graduate Visa (TR485) service fee of $99  per person ",
+    companylink: "",
   },
   {
     id: 6,
     name: "Garuda Indonesia",
     img: "sponsorList/Garuda-Indonesia- isa.png",
     nameImg: "sponsorList/Garuda-IndonesiaName- isa.png",
+    promo: "",
+    companylink: "",
   },
   {
     id: 7,
-    name: "Duet Socials",
-    img: "sponsorList/DuetSoc.png",
-    nameImg: "sponsorList/DuetSocName.png",
+    name: "",
+    img: "",
+    nameImg: "sponsorList/duet social.jpg",
+    promo: "Discount 15% off on graduation photos and discount 5% off on event photography",
+    companylink: "",
   },
 ];
 
@@ -353,44 +371,37 @@ export const bigEvents = [
   {
     id: 1,
     title: "Indonesian Night Market",
-    desc: "@ppiaunsw's biggest event! 22 years of Indonesian culture through food, performances, & fun!",
+    desc: "<b>@PPIAUNSW's</b> biggest event! 22 years of Indonesian culture through food, performances, & fun!",
     className: "md:col-span-2",
-    thumbnail: "",
+    thumbnail: "/acaraBesar/INM.png",
     link:"https://www.instagram.com/inm.unsw",
   },
   {
     id: 2,
     title: "Unravelled",
-    desc: "@ppiausyd",
+    desc: "<b>@PPIAUSYD's</b> flagship event briging gala dinner and afterpaty for post exam period",
     className: "md:col-span-2", 
-    thumbnail: "",
+    thumbnail: "/acaraBesar/unravelled.jpg",
     link:"https://www.instagram.com/___unravelled",
   },
   {
     id: 3,
     title: "Senandung Nostalgia",
-    desc: "@ppia.uts’s flagship event bringing Indonesian Music Festival in Sydney, Australia",
+    desc: "<b>@PPIA.UTS’s</b> flagship event bringing Indonesian Music Festival in Sydney, Australia",
     className: "md:col-span-2", 
-    thumbnail: "",
+    thumbnail: "/acaraBesar/sendal.png",
     link:"https://www.instagram.com/sendalfest",
   },
   {
     id: 4,
     title: "Sounquriang",
-    desc: "Annual charity concert flagship event by @ppiamq to build better Indonesia",
+    desc: "Annual charity concert flagship event by <b>@PPIAMQ</b> to build better Indonesia",
     className: "md:col-span-2",
-    thumbnail: "",
-    link:"",
-  },
-  {
-    id: 5,
-    title: "ICON",
-    desc: "@ppiaunsw ’s flagship event bringing inspirational speakers from Indonesia to you",
-    className: "md:col-span-2",
-    thumbnail: "",
-    link:"",
+    thumbnail: "/acaraBesar/sounquriang.png",
+    link:"https://www.instagram.com/soundquriang/",
   },
 ];
+
 
 export const socialMedia = [
   {

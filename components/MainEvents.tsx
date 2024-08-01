@@ -1,7 +1,7 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import Link from 'next/link';
 
 const MainEvents = () => {
   return (
@@ -14,8 +14,9 @@ const MainEvents = () => {
         {/* add des prop */}
         <Card
           title="Unity"
-          icon={<AceternityIcon order="NSW CUP" />}
+          icon={<AceternityIcon order="NSW CUP" logo="/acaraBesar/nsw-cup.png" />}
           des="An annual flagship event hosted by ISA NSW, a three-day event celebrating Indonesian Independence Day. This includes multiple events ranging from traditional cultural games to sports competitions, where Indonesian get to bond through various activities. Celebrating our cultural heritage through sportsmanship is one of the ways Indonesians get to immerse themselves in our rich Indonesian culture."
+          eventlink="https://www.instagram.com/isa_nsw"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,8 +26,9 @@ const MainEvents = () => {
         </Card>
         <Card
           title="Kilau Diaspora"
-          icon={<AceternityIcon order="Link n Connect" />}
+          icon={<AceternityIcon order="Link n Connect" logo="/acaraBesar/lnC.png" />}
           des="An annual flagship event hosted by ISA NSW, held by inviting various companies operating in Australia that will provide career opportunities for Indonesian students in Australia, as well as featuring prominent guest speakers in the fields of technology, media industry. "
+          eventlink="https://www.instagram.com/isalnc/"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,8 +46,9 @@ const MainEvents = () => {
         </Card>
         <Card
           title="COMING"
-          icon={<AceternityIcon order="Senoparty" />}
+          icon={<AceternityIcon order="Senoparty" logo="/acaraBesar/question-svgrepo-com.svg" />}
           des=" An annual flagship event hosted by ISA NSW, a one night gathering of Indonesian students to promote Indonesian culture through music. As one of the most popular events held by ISA NSW, Indonesian students get to experience their Indonesian culture through music and immerse themselves in our proud and diverse Indonesian culture."
+          eventlink="https://www.instagram.com/isasenoparty/"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -66,11 +69,13 @@ const Card = ({
   children,
   // add this one for the desc
   des,
+  eventlink,
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
   des: string;
+  eventlink: string;
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -105,45 +110,47 @@ const Card = ({
           </motion.div>
         )}
       </AnimatePresence>
-
-      <div className="relative z-20 px-10">
-        <div
-          // add this for making it center
-          // absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
-          className="text-center group-hover/canvas-card:-translate-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
-        group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center"
-        >
-          {icon}
+      <Link href={eventlink} passHref legacyBehavior>
+        <div className="relative z-20 px-10">
+          <div
+              // add this for making it center
+              // absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
+            className="text-center group-hover/canvas-card:-translate-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
+          group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center"
+          >
+            {icon}
+          </div>
+          <h2
+            // change text-3xl, add text-center
+            className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
+          relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
+          group-hover/canvas-card:-translate-y-2 transition duration-200"
+          >
+            {title}
+          </h2>
+          {/* add this one for the description */}
+          <p
+            className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
+          group-hover/canvas-card:-translate-y-2 transition duration-200"
+            style={{ color: "#E4ECFF" }}
+          >
+            {des}
+          </p>
         </div>
-        <h2
-          // change text-3xl, add text-center
-          className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
-         relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
-        >
-          {title}
-        </h2>
-        {/* add this one for the description */}
-        <p
-          className="text-sm opacity-0 group-hover/canvas-card:opacity-100
-         relative z-10 mt-4 group-hover/canvas-card:text-white text-center
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
-          style={{ color: "#E4ECFF" }}
-        >
-          {des}
-        </p>
-      </div>
+      </Link>
     </div>
   );
 };
 // add order prop for the Phase number change
-const AceternityIcon = ({ order }: { order: string }) => {
+const AceternityIcon = ({ order, logo }: { order: string, logo:string }) => {
   return (
     <div>
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
       {/* change rounded-lg, text-purple px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
+      <img src={logo} alt={order} className="w-100 h-100" />
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]

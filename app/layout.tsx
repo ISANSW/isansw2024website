@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ISA NSW website",
+  title: "ISA NSW",
   description: "Indonesian Student Association with 7 Chapter",
 };
 

@@ -65,11 +65,11 @@ const Branch = () => {
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}*/}
-                  <a href={item.link}>
+                  {/*<a href={item.committee}>
                     <p className="flex lg:text-xl md:text-xs text-sm text-yellow-200">
                       Committee Introduction
                     </p>
-                  </a>
+                  </a>*/}
                 </div>
                 
                 
@@ -77,7 +77,7 @@ const Branch = () => {
                 <div className="flex justify-center items-center">
                   <a href={item.link}>
                     <p className="flex lg:text-xl md:text-xs text-sm text-yellow-200">
-                      Check Live Site
+                      Check out their Instagram
                     </p>
                   </a>
                   <FaLocationArrow className="ms-3" color="#D6C8A5" />

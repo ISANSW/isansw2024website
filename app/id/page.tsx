@@ -18,10 +18,6 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <Branch />
-        <Sponsor />
-        <Experience />
-        <MainEvents />
         <Footer />
       </div>
     </main>
