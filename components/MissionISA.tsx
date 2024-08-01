@@ -31,9 +31,10 @@ const MISSIONISA = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            A non-profit organization that serves as the NSW chapter of Perhimpunan Pelajar Indonesia Australia, the Indonesian Student Association of Australia.
+            A non-profit organization that serves as the NSW chapter of Perhimpunan Pelajar Indonesia Australia, the Indonesian Student Association in Australia (PPIA). Our mission is to connect and empower Indonesian students in New South Wales through a vibrant and inclusive community.
           </p>
-          <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+          
+          <div className="flex flex-col lg:flex-row gap-8 mt-20">
             <a href="#vision">
               <MagicButton
                 title="VISION"
@@ -57,7 +58,7 @@ const MISSIONISA = () => {
             </a>
           </div>
 
-          <div className="my-20 flex flex-col  items-center justify-center w-full gap-4">
+          <div className="my-20 flex flex-col items-center justify-center w-full gap-4">
             <h1 className="heading" id="vision">
               Our
               <span className="text-red"> Vision</span>
