@@ -1,7 +1,6 @@
 import React from 'react'
 import { aboutItems } from "@/data";
 
-
 import Mission from "@/components/MissionISA";
 import Committee from "@/components/CommitteeISA";
 import Footer from "@/components/Footer";

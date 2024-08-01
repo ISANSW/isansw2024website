@@ -65,7 +65,7 @@ const MISSIONISA = () => {
           
 
           <div className="my-20 flex flex-col  items-center justify-center w-full gap-4">
-            <h1 className="heading"id='vision'>
+            <h1 className="heading"id="vision">
               Our
               <span className="text-red"> Vision</span>
             </h1>
@@ -74,7 +74,7 @@ const MISSIONISA = () => {
             </p>
           </div>
           <div className="my-20 flex flex-col items-center justify-center w-full gap-4">
-            <h1 className="heading"id='mission'>
+            <h1 className="heading"id="mission">
               Our
               <span className="text-red"> Mission</span>
             </h1>
