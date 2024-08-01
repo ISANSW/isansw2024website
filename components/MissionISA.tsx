@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import MagicButton from "./ui/MagicButton";
 import { FaUser, FaBullseye, FaEye } from "react-icons/fa6";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
