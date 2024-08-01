@@ -338,7 +338,7 @@ export const companies = [
     name: "Traveloka",
     img: "sponsorList/Traveloka.svg",
     nameImg: "sponsorList/TravelokaName.png",
-    promo: '<b>ONE TIME</b> <i>10%</i> for new users and <i>7%</i>b for existing users <b> residing in australia </b>.',
+    promo: '<b>ONE TIME</b> <i>10%</i> for new users and <i>7%</i> for existing users <b> residing in australia </b>.',
     companylink: "",
   },
   {
@@ -354,7 +354,7 @@ export const companies = [
     name: "Garuda Indonesia",
     img: "sponsorList/Garuda-Indonesia- isa.png",
     nameImg: "sponsorList/Garuda-IndonesiaName- isa.png",
-    promo: "",
+    promo: "20% off",
     companylink: "",
   },
   {
