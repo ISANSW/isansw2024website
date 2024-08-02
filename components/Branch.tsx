@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { branch } from "@/data";
 import { PinContainer } from "./ui/Pin";
-import Image from 'next/image';
+
 
 const Branch = () => {
   return (
@@ -28,9 +28,9 @@ const Branch = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <Image src="/bg.png" alt="bgimg" />
+                  <img src="/bg.png" alt="bgimg" />
                 </div>
-                <Image
+                <img
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute scale-50 "

@@ -2,7 +2,6 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 import Link from 'next/link';
-import Image from 'next/image';
 
 const MainEvents = () => {
   return (
@@ -151,7 +150,7 @@ const AceternityIcon = ({ order, logo }: { order: string, logo:string }) => {
       {/* change rounded-lg, text-purple px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
-      <Image src={logo} alt={order} className="w-100 h-100" />
+      <img src={logo} alt={order} className="w-100 h-100" />
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]

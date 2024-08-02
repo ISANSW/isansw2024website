@@ -249,14 +249,14 @@ export const SponsorList = [
     locationLink: "https://maps.app.goo.gl/kgPHiTv47Aj4vsjn8",
     logo: "/sponsorList/restarurantlogo/the-bowls.jpg",
   },
-  {
+  {/*{
     quote:
       "Discount 10% off total bill",
     name: "The Sambal",
     location: "shop a/432 Kent St, Sydney NSW 2000",
     locationLink: "https://maps.app.goo.gl/yDzhWTMfnoLZzvEi8",
     logo: "/sponsorList/restarurantlogo/the-sambal.jpg",
-  },
+  },*/},
   {
     quote:
       "Discount 10% off total bill",
@@ -314,7 +314,7 @@ export const companies = [
     name: "RACC",
     img: "sponsorList/RACC - PPIA USYD.png",
     nameImg: "/sponsorList/RACCname - PPIA USYD.png",
-    promo: "Chance to win <b>$200</b> discount voucher",
+    promo: "",
     companylink: "",
   },
   {
@@ -346,7 +346,7 @@ export const companies = [
     name: "Expert Education & Visa Services",
     img: "sponsorList/Expert.png",
     nameImg: "sponsorList/ExpertName.png",
-    promo: "Discounted Student Graduate Visa (TR485) service fee of $99  per person ",
+    promo: "",
     companylink: "",
   },
   {
