@@ -249,14 +249,6 @@ export const SponsorList = [
     locationLink: "https://maps.app.goo.gl/kgPHiTv47Aj4vsjn8",
     logo: "/sponsorList/restarurantlogo/the-bowls.jpg",
   },
-  {/*{
-    quote:
-      "Discount 10% off total bill",
-    name: "The Sambal",
-    location: "shop a/432 Kent St, Sydney NSW 2000",
-    locationLink: "https://maps.app.goo.gl/yDzhWTMfnoLZzvEi8",
-    logo: "/sponsorList/restarurantlogo/the-sambal.jpg",
-  },*/},
   {
     quote:
       "Discount 10% off total bill",
