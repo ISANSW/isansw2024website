@@ -138,7 +138,7 @@ export const branch = [
     id: 7,
     title: "PPIA Western Sydney University",
     des: "Branch Indonesian Student Association in Western Sydny University",
-    img: "/PPIA_WSU.png",
+    img: "/PPIA_WSU_Redesign_2024.png",
     iconLists: " ",
     branchtext: " ",
     link: "https://www.instagram.com/ppiawsu/",
@@ -306,8 +306,8 @@ export const companies = [
     name: "RACC",
     img: "sponsorList/RACC - PPIA USYD.png",
     nameImg: "/sponsorList/RACCname - PPIA USYD.png",
-    promo: "",
-    companylink: "",
+    promo: "Special Visa Price",
+    companylink: "https://www.racc.net.au/",
   },
   {
     id: 2,
@@ -315,7 +315,7 @@ export const companies = [
     img: "sponsorList/DR-JANA-PPIA_UTS.png",
     nameImg: "sponsorList/DR-JANAname-PPIA_UTS.png",
     promo: "Discount <b>20%</b> off for every transaction",
-    companylink: "",
+    companylink: "https://www.drjanasiswadi.com.au/",
   },
   {
     id: 3,
@@ -323,7 +323,7 @@ export const companies = [
     img: "sponsorList/hyper-karting-isa.png",
     nameImg: "sponsorList/hyper-kartingname-isa.png",
     promo: '20% off using the code <b>ISA24</b>. <i>* For online booking only.</i>',
-    companylink: "",
+    companylink: "https://hyperkarting.com.au/",
   },
   {
     id: 4,
@@ -338,7 +338,7 @@ export const companies = [
     name: "Expert Education & Visa Services",
     img: "sponsorList/Expert.png",
     nameImg: "sponsorList/ExpertName.png",
-    promo: "",
+    promo: "Discounted Student Graduate Temporary Visa (TR485) service fee of <b>$99 </b> per person.",
     companylink: "",
   },
   {
@@ -346,7 +346,7 @@ export const companies = [
     name: "Garuda Indonesia",
     img: "sponsorList/Garuda-Indonesia- isa.png",
     nameImg: "sponsorList/Garuda-IndonesiaName- isa.png",
-    promo: "20% off",
+    promo: "20% Discount off",
     companylink: "",
   },
   {
@@ -355,7 +355,7 @@ export const companies = [
     img: "",
     nameImg: "sponsorList/duet social.jpg",
     promo: "Discount 15% off on graduation photos and discount 5% off on event photography",
-    companylink: "",
+    companylink: "https://www.facebook.com/duetsocial/",
   },
 ];
 
@@ -420,6 +420,11 @@ export const socialMedia = [
     id: 5,
     img: "/tiktok.svg",
     socialLink: "https://www.tiktok.com/@isa_nsw"
+  },
+  {
+    id: 6,
+    img: "/linktree.svg",
+    socialLink: "https://linktr.ee/isansw"
   },
 ];
 
