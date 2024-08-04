@@ -175,7 +175,7 @@ export const SponsorList = [
     name: "Bintang Bro",
     location: "4/1 Little Pier St, Haymarket NSW 2000",
     locationLink: "https://maps.app.goo.gl/ugtX28dsj6rXPVP98",
-    logo: "/sponsorList/restarurantlogo/bintang-bro.png ",
+    logo: "/sponsorList/restarurantlogo/Bintang-Bro.png ",
   },
   {
     quote:
