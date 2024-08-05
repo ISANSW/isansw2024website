@@ -145,12 +145,12 @@ const Card = ({
 // add order prop for the Phase number change
 const AceternityIcon = ({ order, logo }: { order: string, logo:string }) => {
   return (
-    <div>
+    <div className=" flex flex-col gap-4">
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
       {/* change rounded-lg, text-purple px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
-      <img src={logo} alt={order} className="w-100 h-100" />
+      <img src={logo} alt={order} className="w-100 h-100 rounded-xl" />
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
