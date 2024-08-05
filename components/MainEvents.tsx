@@ -46,9 +46,9 @@ const MainEvents = () => {
         </Card>
         <Card
           title="COMING"
-          icon={<AceternityIcon order="Senoparty" logo="/acaraBesar/question-svgrepo-com.svg" />}
+          icon={<AceternityIcon order="Senoparty" logo="/acaraBesar/Senoparty.png" />}
           des=" An annual flagship event hosted by ISA NSW, a one night gathering of Indonesian students to promote Indonesian culture through music. As one of the most popular events held by ISA NSW, Indonesian students get to experience their Indonesian culture through music and immerse themselves in our proud and diverse Indonesian culture."
-          eventlink="https://www.instagram.com/isasenoparty/"
+          eventlink="https://www.instagram.com/isa_senoparty/"
         >
           <CanvasRevealEffect
             animationSpeed={3}
