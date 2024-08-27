@@ -10,6 +10,7 @@ import MainEvents from "@/components/MainEvents";
 import Events from "@/components/Events";
 import Branch from "@/components/Branch";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import GoogleCalendar from "@/components/GoogleCalendar";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Sponsor />
         <Events />
         <MainEvents />
+        <GoogleCalendar />
         <Footer />
       </div>
     </main>
